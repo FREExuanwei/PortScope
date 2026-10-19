@@ -1,0 +1,7 @@
+{
+  "version": "0.5.3",
+  "dllSha1MatchesOfficialBundler": true,
+  "dllSha256": "5ba143b5db4a87d32d6e7802e033330aae56cbceabe0d1e3ba41948385ad4709",
+  "mitTextReadFrom": "https://github.com/tauri-apps/nsis-tauri-utils/blob/nsis_tauri_utils-v0.5.3/LICENSE_MIT",
+  "apacheText": "Canonical Apache2 text supplied alongside Tauri; no project license is chosen."
+}

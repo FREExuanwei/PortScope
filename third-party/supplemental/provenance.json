@@ -1,0 +1,94 @@
+[
+  {
+    "package": "alloc-stdlib",
+    "version": "0.3.0",
+    "commit": "0a81fd6928ea3b33c8cd484aa4575d50ffb98012",
+    "url": "https://raw.githubusercontent.com/dropbox/rust-alloc-no-stdlib/0a81fd6928ea3b33c8cd484aa4575d50ffb98012/LICENSE",
+    "file": "docs/third-party/supplemental/alloc-stdlib/LICENSE",
+    "sha256": "c0c56f26d9c051cac4d200c34c84e7ae9aaa853e01a982a1df08b09931e518ae"
+  },
+  {
+    "package": "defmt-parser",
+    "version": "1.0.0",
+    "commit": "4a8cdb44891ed57b8ff5a023b6bec7137c48708f",
+    "url": "https://raw.githubusercontent.com/knurling-rs/defmt/4a8cdb44891ed57b8ff5a023b6bec7137c48708f/LICENSE-MIT",
+    "file": "docs/third-party/supplemental/defmt-parser/LICENSE-MIT",
+    "sha256": "2710a622a896bba67356913d4d0492cab5465f61b2ecce6d880aeb483834fb50"
+  },
+  {
+    "package": "defmt-parser",
+    "version": "1.0.0",
+    "commit": "4a8cdb44891ed57b8ff5a023b6bec7137c48708f",
+    "url": "https://raw.githubusercontent.com/knurling-rs/defmt/4a8cdb44891ed57b8ff5a023b6bec7137c48708f/LICENSE-APACHE",
+    "file": "docs/third-party/supplemental/defmt-parser/LICENSE-APACHE",
+    "sha256": "8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90"
+  },
+  {
+    "package": "webview2-com",
+    "version": "0.39.1",
+    "commit": "edc2caf886175ccaebe86078c9cfe1ae2a187328",
+    "url": "https://raw.githubusercontent.com/wravery/webview2-rs/edc2caf886175ccaebe86078c9cfe1ae2a187328/LICENSE",
+    "file": "docs/third-party/supplemental/webview2-com/LICENSE",
+    "sha256": "0dcf41516e608bbcb6cdc5229feb7b86fe4a643b85e7df251133c93408fdac73"
+  },
+  {
+    "package": "webview2-com-macros",
+    "version": "0.8.1",
+    "commit": "dffa41a8a46d3f5565eefbff2de57d38d399f158",
+    "url": "https://raw.githubusercontent.com/wravery/webview2-rs/dffa41a8a46d3f5565eefbff2de57d38d399f158/LICENSE",
+    "file": "docs/third-party/supplemental/webview2-com-macros/LICENSE",
+    "sha256": "0dcf41516e608bbcb6cdc5229feb7b86fe4a643b85e7df251133c93408fdac73"
+  },
+  {
+    "package": "webview2-com-sys",
+    "version": "0.39.1",
+    "sameRepositoryNoticeAs": "webview2-com",
+    "commit": "edc2caf886175ccaebe86078c9cfe1ae2a187328"
+  },
+  {
+    "package": "selectors",
+    "version": "0.38.0",
+    "licenseText": "Canonical MPL2 text already packaged with cssparser",
+    "file": "docs/third-party/supplemental/selectors/LICENSE-MPL-2.0"
+  },
+  {
+    "package": "cssparser",
+    "version": "0.37.0",
+    "coveredSourceArchive": "cssparser-0.37.0.crate",
+    "sha256": "8c9cdaae01d5ed7882b04d795e7f752f46ff52d2fa3b50a20d28c464510bba98",
+    "sourceUrl": "https://crates.io/api/v1/crates/cssparser/0.37.0/download",
+    "modified": false
+  },
+  {
+    "package": "cssparser-macros",
+    "version": "0.7.1",
+    "coveredSourceArchive": "cssparser-macros-0.7.1.crate",
+    "sha256": "d045de693cb712d0b22c6a64be5b953f67b3ce00ab5ad3dd5d8b441886ab8e1a",
+    "sourceUrl": "https://crates.io/api/v1/crates/cssparser-macros/0.7.1/download",
+    "modified": false
+  },
+  {
+    "package": "dtoa-short",
+    "version": "0.3.5",
+    "coveredSourceArchive": "dtoa-short-0.3.5.crate",
+    "sha256": "cd1511a7b6a56299bd043a9c167a6d2bfb37bf84a6dfceaba651168adfb43c87",
+    "sourceUrl": "https://crates.io/api/v1/crates/dtoa-short/0.3.5/download",
+    "modified": false
+  },
+  {
+    "package": "option-ext",
+    "version": "0.2.0",
+    "coveredSourceArchive": "option-ext-0.2.0.crate",
+    "sha256": "04744f49eae99ab78e0d5c0b603ab218f515ea8cfe5a456d7629ad883a3b6e7d",
+    "sourceUrl": "https://crates.io/api/v1/crates/option-ext/0.2.0/download",
+    "modified": false
+  },
+  {
+    "package": "selectors",
+    "version": "0.38.0",
+    "coveredSourceArchive": "selectors-0.38.0.crate",
+    "sha256": "8adfa1c298912827b8a28b223b3b874357397ae706e6190acd9bf28cee99114d",
+    "sourceUrl": "https://crates.io/api/v1/crates/selectors/0.38.0/download",
+    "modified": false
+  }
+]

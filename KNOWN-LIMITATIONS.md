@@ -1,0 +1,14 @@
+# Known limitations / 已知限制
+
+- Windows x64 and existing Edge WebView2 Runtime are required. Binaries/installer are unsigned. No claim of all Windows versions, architectures, DPI settings or hardware having been tested.
+- Native observation is read-only and permission-bound. Project recognition can be unknown or inferred; common ports and user names never prove a project. No process termination, firewall/service changes, elevation or remote-device scanning.
+- Monitoring requires the app to be running. First/last observations are not exact OS start/stop times. Pauses, failures and offline periods remain gaps; no history is reconstructed.
+- Docker published mappings and running WSL inventory are limited optional metadata, not reliable Linux-service or Windows-PID attribution. Real Docker/WSL service scenarios were not validated here; remote/custom Docker engines are unsupported.
+- The two-hour stability test is incomplete, not passed, and was removed as a gate by the owner. Actual frozen-0.5.0 baseline observation: 61 samples spanning 3600 seconds, approximately 3628 seconds including the run's observation phase; 518 native collections succeeded, zero failed. Private memory was 494.6→564.6 MiB (448.6–564.6 MiB range); CPU averaged 4.85% of one logical core, not 4.85% of the whole machine. This does not establish absence of leaks. That baseline's resource trace is not a per-sample trace of the final remapped 1.0.0 EXE.
+- Original long-run result remains failed: a test assertion incorrectly counted three legitimate continued-observation records as lifecycle transitions. The harness was corrected with a targeted regression; the original run was not converted to passed and no replacement multi-hour test was run.
+- Real installation/upgrade/rollback/default-uninstall used the production NSIS template and exact final payload in a separate application/registry/profile namespace. An unmodified production installer in a clean VM, missing-WebView2 machine, installation interruption and interactive delete-data uninstall option remain untested.
+- Physical DPI/touchpad, real sleep/wake and network-interface changes remain unverified. The 250 passed WebView layout cases are viewport emulation, not hardware testing.
+- One optional native test requiring a user-provided existing project path was not run. Real controlled Node/npm Vite recognition was checked; no new real Spring Boot acceptance is claimed.
+- Same-day dependency audit found zero npm/RustSec vulnerability entries, with two RustSec warnings: unmaintained proc-macro-error and unsound glib; neither is in the Windows normal/build dependency closure. Audit results are dated evidence, not a perpetual vulnerability guarantee.
+
+中文：未签名，仅面向 Windows x64 且需已有 WebView2。识别受权限和证据限制；监听数字相同不等于冲突。应用关闭时不监控、不补造历史。Docker/WSL 为有限支持，未验证真实服务归属。完整两小时未完成且已移出门槛；约一小时中内存有上升，不能称无泄漏，原脚本失败保留。安装链路采用隔离命名空间，不能替代干净系统原生产安装包验收；物理 DPI、触控板、睡眠唤醒及网卡变化仍未验证。未掩盖可选测试和依赖警告。
